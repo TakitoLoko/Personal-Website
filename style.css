@@ -1,8 +1,6 @@
 body, html{
     height: 100%;
     background-color: rgb(48,48,48);
-    scroll-behavior: smooth;
-
 }
 
 
@@ -70,9 +68,6 @@ a:hover{
 p{
     font-family: 'Times New Roman', Times, Georgia, serif;
 }
-
-
-
 
 /* Add a black background color to the top navigation */
 .topnav {
