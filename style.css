@@ -8,7 +8,8 @@ body, html{
 
 div#hero-header,
 div#occupations-info,
-div#hobbies-info
+div#hobbies-info,
+div#adventures-info
 {
     height: 100%;
     margin-bottom: 20pt;
@@ -30,10 +31,14 @@ div#hobbies-info{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
 }
 
+div#adventures-info{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
+}
 
 div#hero-text,
 div#occupations-info-text,
-div#hobbies-info-text{
+div#hobbies-info-text,
+div#adventures-info-text{
     font-size: 4vw;
     color: white;
 }
@@ -45,7 +50,8 @@ div#hero-text{
 }
 
 div#occupations-info-text,
-div#hobbies-info-text{
+div#hobbies-info-text,
+div#adventures-info-text{
     position: absolute;
     left: 3%;
 }
@@ -64,3 +70,34 @@ a:hover{
 p{
     font-family: 'Times New Roman', Times, Georgia, serif;
 }
+
+
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: aqua;
+    color: black;
+  }
