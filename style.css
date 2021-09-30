@@ -10,6 +10,7 @@ body, html{
     border: rgba(255, 255, 255, 0.137) solid;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
+    border-bottom: transparent;
 }
   
   .topnav a {
@@ -44,7 +45,6 @@ div#adventures-info
     background-size: cover;
     position: relative;
     border: rgba(255, 255, 255, 0.137) solid; border-width: 0.5; 
-
 }
 
 div#hero-header{
@@ -92,8 +92,7 @@ div#adventures-info-text{
     font-size: 3vw;
     align-items: center;
     border: rgba(255, 255, 255, 0.137) solid; border-width: 0.5; 
-    border-top: transparent;
-}  
+}
 
 .occupations-page-text,
 .hobbies-page-text,
@@ -101,6 +100,12 @@ div#adventures-info-text{
     width: 40vw;
     text-align: left;
     color: white;
+}
+
+.occupations-page img,
+.hobbies-page img,
+.adventures-page img{
+    width: 40%; 
 }
 
 a{
