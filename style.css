@@ -18,19 +18,19 @@ div#adventures-info
 }
 
 div#hero-header{
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/CAT.jpg");
 }
 
 div#occupations-info{
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("occupations.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/occupations.jpg");
 }
 
 div#hobbies-info{
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("hobbies.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/hobbies.jpg");
 }
 
 div#adventures-info{
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("adventures.jpg");
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/adventures.jpg");
 }
 
 div#hero-text,
