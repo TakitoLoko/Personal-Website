@@ -5,10 +5,13 @@ body, html{
 
 }
 
+
 div#hero-header,
-div#current-info
+div#occupations-info,
+div#hobbies-info
 {
     height: 100%;
+    margin-bottom: 20pt;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -19,14 +22,18 @@ div#hero-header{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
 }
 
-div#current-info{
-    margin-top: 20pt;
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("education.jpg");
+div#occupations-info{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("occupations.jpg");
+}
+
+div#hobbies-info{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
 }
 
 
 div#hero-text,
-div#current-info-text{
+div#occupations-info-text,
+div#hobbies-info-text{
     font-size: 4vw;
     color: white;
 }
@@ -37,10 +44,13 @@ div#hero-text{
     left: 3%;
 }
 
-div#current-info-text{
+div#occupations-info-text,
+div#hobbies-info-text{
     position: absolute;
     left: 3%;
 }
+
+
 
 a{
     color: aqua;
@@ -49,4 +59,8 @@ a{
 
 a:hover{
     color: rgb(0, 140, 255);
+}
+
+p{
+    font-family: 'Times New Roman', Times, Georgia, serif;
 }
