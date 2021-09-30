@@ -1,13 +1,13 @@
 body, html{
     height: 100%;
+    background-color: rgb(48,48,48);
+    scroll-behavior: smooth;
+
 }
 
-div#menu{
-    
-}
-
-div#hero-header{
-    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
+div#hero-header,
+div#current-info
+{
     height: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,10 +15,38 @@ div#hero-header{
     position: relative;
 }
 
-div#hero-text{
-    font-size: 400%;
+div#hero-header{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
+}
+
+div#current-info{
+    margin-top: 20pt;
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("education.jpg");
+}
+
+
+div#hero-text,
+div#current-info-text{
+    font-size: 4vw;
     color: white;
+}
+
+div#hero-text{
     position: absolute;
     top: 10%;
     left: 3%;
+}
+
+div#current-info-text{
+    position: absolute;
+    left: 3%;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(0, 140, 255);
 }
