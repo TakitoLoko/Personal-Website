@@ -1,0 +1,60 @@
+div#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+/* Try css grid */
+div#aboutme,
+div#achievements,
+div#contact,
+div#next,
+div#next2,
+div#next3 {
+    padding-bottom: 10em;
+    padding-right: 30px;
+    padding-left: 30px;
+    width: 27em;
+}
+
+h1,
+h2 {
+    font-family: sans-serif, serif;
+}
+
+h1 {
+    font-size: 3.3em;
+    -webkit-text-stroke: 0.70px white;
+    -webkit-text-fill-color: rgb(0, 0, 0);
+    border-bottom: rgb(255, 136, 0) solid;
+
+}
+
+h2 {
+    margin-top: 0px;
+    border-left: rgb(255, 136, 0) solid 6px;
+    font-size: 2em;
+    color: white;
+    margin-bottom: 0.4em;
+
+}
+
+p,
+ul {
+    padding-left: 6em;
+    font-family: serif;
+    font-size: 1.2em;
+    color: white;
+    margin-left: 1em;
+    margin-top: 0em;
+}
+
+img {
+    border-radius: 10px;
+    float: left;
+}
+
+a{
+    color: aqua;
+    text-decoration: none;
+}
