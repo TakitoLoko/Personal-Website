@@ -1,0 +1,24 @@
+body, html{
+    height: 100%;
+}
+
+div#menu{
+    
+}
+
+div#hero-header{
+    background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("CAT.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+div#hero-text{
+    font-size: 400%;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
