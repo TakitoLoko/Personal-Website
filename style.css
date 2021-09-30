@@ -69,6 +69,7 @@ p{
     font-family: 'Times New Roman', Times, Georgia, serif;
 }
 
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -79,8 +80,8 @@ p{
   .topnav a {
     float: left;
     color: #f2f2f2;
-    text-align: center;
     padding: 14px 16px;
+    border-radius: 0.5em;
     text-decoration: none;
     font-size: 17px;
   }
