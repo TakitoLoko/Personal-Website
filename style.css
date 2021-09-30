@@ -28,8 +28,7 @@ body, html{
     color: black;
   }
 
-
-/* Content/div organizer + background images */
+/* Home page content/div organizer + background images */
 div#hero-header,
 div#occupations-info,
 div#hobbies-info,
@@ -79,6 +78,21 @@ div#adventures-info-text{
     left: 3%;
 }
 
+/* Sub pages content organizer */
+.occupations-page,
+.hobbies-page{
+    display: flex;
+    flex-direction: column;
+    font-size: 3vw;
+    align-items: center;
+  }  
+
+.text-d{
+    width: 40vw;
+    text-align: left;
+    color: white;
+}
+
 a{
     color: aqua;
     text-decoration: none;
@@ -88,8 +102,6 @@ a:hover{
     color: rgb(0, 140, 255);
 }
 
-p{
-    font-family: 'Times New Roman', Times, Georgia, serif;
+h1{
+    color: white;   
 }
-
-
