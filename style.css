@@ -1,19 +1,42 @@
-html,
 body{
     height: 100vh;
     background-color: rgb(48,48,48);
     margin: 0;
+    padding: 0;
+/*Don't know if needed:     box-sizing: border-box;*/
+}
+
+
+/* Defines body of defined page */
+.home-page{
+    overflow-y: hidden;
+}
+
+.occupations-page{
+    overflow-y: scroll;
+}
+
+.hobbies-page{
+    overflow-y: scroll;
+}
+
+.adventures-page{
+    overflow-y: scroll;
+}
+
+/* Styling for all sections */
+section {
+    scroll-snap-align: start;
+    border: rgb(90, 90, 90) solid;
+    margin-left: 0.7vh;
+    margin-right: 0.7vh;
 }
 
 
 /* Navigation bar styling */
 .topnav {
-    margin: 0.7vh;
-    margin-top: 0;
-    margin-bottom: 0vh;
     background-color: #333;
     overflow: hidden;
-    border: rgb(90, 90, 90) solid;
     border-top-left-radius: 1em;
     border-top-right-radius: 1em;
     border-bottom: transparent;
@@ -28,61 +51,59 @@ body{
     font-size: 17px;
 }
   
-.topnav a:hover {
-    background-color: #ddd;
-    color: black;
-  }
-  
 .topnav a.active {
     background-color: aqua;
     color: black;
   }
 
-/* Home page content/div organizer + background images */
-section {
-    height: 100hv;
-    scroll-snap-align: start;
-}
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 
+
+/* Home page content organizer + background images */
 .home-page-container{
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
 }
 
-.hero-header,
-.occupations-info,
-.hobbies-info,
-.adventures-info{
-    position: absolute;
-    font-size: 4vw;
+.home-info{
+    font-size: 5vw;
     color: white;
+/*possibly not needed:     position: absolute; */
 
-    margin: 0.7vh;
-    margin-top: 0;
-    margin-bottom: 0;
     height: 100vh;
-    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
-    border: rgb(90, 90, 90) solid;
 }
 
+.home-info h1{
+    padding-left: 5vh;
+    padding-top: 10vh;
+}
 
-.hero-header{
+.home-info h3{
+    padding-left: 5vh;
+    font-size: 70%;
+}
+
+.hero-img{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/CAT.jpg");
 }
 
-.occupations-info{
+.occupations-img{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/occupations.jpg");
 }
 
-.hobbies-info{
+.hobbies-img{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/hobbies.jpg");
 }
 
-.adventures-info{
+.adventures-img{
     background-image: linear-gradient(rgb(0,0,0,0.5), rgba(0,0,0,0.5)), url("background-images/adventures.jpg");
 }
 
@@ -115,10 +136,10 @@ div#adventures-info-text{
 }
 
 /* Sub pages content organizer */
-.occupations-page,
-.hobbies-page,
-.adventures-page{
-    margin: 1vh;
+.occupations-info,
+.hobbies-info,
+.adventures-info{
+    margin: 0.7vh;
     margin-top: 0;
     margin-bottom: 0;
     display: flex;
@@ -136,9 +157,9 @@ div#adventures-info-text{
     color: white;
 }
 
-.occupations-page img,
-.hobbies-page img,
-.adventures-page img{
+.occupations-info img,
+.hobbies-info img,
+.adventures-info img{
     width: 40%; 
 }
 
