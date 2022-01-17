@@ -26,8 +26,8 @@ body{
 
 /* Styling for all sections */
 section {
-    scroll-snap-align: start;
-    border: 0.5vh rgb(90, 90, 90) solid;
+/*     scroll-snap-align: start;
+ */    border: 0.5vh rgb(90, 90, 90) solid;
     margin-left: 0.7vh;
     margin-right: 0.7vh;
 }
@@ -63,8 +63,8 @@ section {
 
 /* Home page content organizer + background images */
 #home-page-container{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
+/*     scroll-snap-type: y mandatory;
+ */    overflow-y: scroll;
     height: 100vh;
 }
 
@@ -109,30 +109,32 @@ section {
 }
 
 
-/* Back to top button styling */
-#back-to-top-btn {
-    display: none;
-    position: fixed;
-    top: 1%;
-    left: 50%;
-    transform: translate(-50%);
-    font-size: 20px;
-    width: 50px;
-    height: 50px;
-    background-color: rgb(90, 90, 90);
+
+
+
+
+
+
+
+/* div#hero-text,
+div#occupations-info-text,
+div#hobbies-info-text,
+div#adventures-info-text{
+    position: absolute;
+    font-size: 4vw;
     color: white;
-    cursor: pointer;
-    outline: none;
-    border: 3px solid #333;
-    border-radius: 50%;
+} */
+
+div#hero-text{
+    top: 10%;
+    left: 3%;
 }
 
-
-
-
-
-
-
+div#occupations-info-text,
+div#hobbies-info-text,
+div#adventures-info-text{
+    left: 3%;
+}
 
 /* Sub pages content organizer */
 .occupations-info,
@@ -183,3 +185,19 @@ h1{
 
 
 
+#back-to-top-btn {
+    display: none;
+    position: fixed;
+    top: 1%;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(90, 90, 90);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+}
